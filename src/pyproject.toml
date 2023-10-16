@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "poetry_docker"
+version = "0.1.0"
+description = ""
+authors = ["ota-yu"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sklearn = "^0.0"
+jupyterlab = "*"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+seaborn = "*"
+japanize-matplotlib = "*"
+openpyxl = "^3.1.2"
+fastapi = "^0.103.1"
+uvicorn = "^0.23.2"
+gunicorn = "^21.2.0"
+websockets = "^11.0.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
